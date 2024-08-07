@@ -1,0 +1,121 @@
+*{
+    padding: 0;margin: 0;box-sizing: border-box;
+}
+.navContainer{
+    position: fixed;
+    z-index: 1000;
+}
+.Navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 5px;
+    width: 100vw;
+   
+    /* margin-bottom: 10px; */
+}
+.left-nav-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 600px;
+    /* flex: 1; */
+    /* border: 1px solid black; */
+}
+.right-nav-div{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid black; */
+    gap:50px
+    
+    /* flex: 1; */
+}
+.nav-menu-list-container ul{
+    display: flex;
+    gap: 30px;
+    color: #005C78;
+    font-family: poppins;
+    font-weight: 500;
+}
+.Navbar img{
+    height: 50px;
+}
+.Navbar button {
+    height: 40px;
+    width: 140px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #005C78;
+    font-family: poppins;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.nav-cart-count{
+        width: 22px;
+        height: 22px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        margin-top: -50px;
+        margin-left: 45px;
+        border-radius:11px;
+        font-size: 14px;
+        background: #FAEF5D;
+        color: #D80032;
+    
+    
+    }
+.Navbar {
+  background-color: #ffffff; /* Background color of the nav */
+  padding: 20px; /* Padding for the nav */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Horizontal offset, Vertical offset, Blur radius, Color */
+}
+@media (max-width: 768px) {
+
+.Navbar{
+    
+    padding-top: 3px;
+}
+.left-nav-div{
+    
+    width: 300px;
+    
+}
+.right-nav-div{
+    
+    gap:30px
+    
+    
+}
+.nav-menu-list-container ul{
+  
+    gap: 20px;
+    /* color: #005C78; */
+    /* font-family: poppins; */
+    font-weight: 400;
+}
+}
+@media (max-width: 480px) {
+    .nav-menu-list-container ul {
+        display: none; /* Hide menu items on small screens */
+    }
+
+    .Navbar img {
+        height: 35px;
+    }
+
+    .Navbar button {
+        width: 90px;
+        height: 30px;
+        font-size: 14px;
+    }
+
+    .nav-cart-count {
+        top: 10px; /* Adjusted for better positioning */
+        right: 15px; /* Adjusted for better positioning */
+    }
+}

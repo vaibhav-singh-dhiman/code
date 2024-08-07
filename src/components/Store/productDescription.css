@@ -1,0 +1,69 @@
+*{
+    padding: 0;margin: 0;box-sizing: border-box;
+}
+.ProductDescription{
+    padding:10rem 5rem;
+    
+}
+.option-images{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.option-images img{
+    height: 150px;
+    border: 1px dotted lightgray;
+    cursor: pointer;
+}
+.option-images img:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+.leftProductDescription{
+    display: flex;
+    gap: 20px;
+}
+.main-image {
+    border: 1px solid lightgray;
+   
+}
+.product-first-description{
+    display: flex;
+    gap: 1rem;
+}
+.rightProductDescription{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.rightProductDescription h1{
+    color: #D80032;
+    
+}
+.normal{
+    color: #005C78;
+}
+.Old-Price{
+    font-size: larger;
+    color: #D80032;
+    text-decoration: line-through;
+}
+.New-Price{
+    font-size: larger;
+    color: green;
+}
+.btns button{
+    padding: 20px;
+    width: 10rem;
+    background-color: #005C78;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-family: poppins;
+    font-size: large;
+    color: #DCF2F1;
+}
+.btns{
+    display: flex;
+    gap: 20px;
+}

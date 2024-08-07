@@ -1,0 +1,52 @@
+*{
+    padding: 0;margin: 0;box-sizing: border-box;
+}
+.AllProduct{
+    margin-top: 25vh;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.category{
+    height: 60vh;
+    width: 100vw;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+.firstCategory{
+    background-color: #D80032;
+}
+.secondCategory{
+    background-color: #FAEF5D;
+}
+.thirdCategory{
+    background-color: #005C78;
+}
+.forthCategory{
+    background-color: #006769;
+    justify-content: space-evenly;
+}
+.category img{
+    height: 300px;
+}
+.category p{
+    font-size: 100px;
+    font-family: poppins;
+    font-weight: bolder;
+    color: white
+}
+.secondImage{
+    position: relative;
+    bottom:-12%;
+}
+.firstImage{
+    height: 500px;
+}
+.sixthImage{
+    position: relative;
+    bottom:-12%;
+}

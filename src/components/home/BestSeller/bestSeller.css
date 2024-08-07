@@ -1,0 +1,83 @@
+*{
+    padding: 0;margin: 0;box-sizing: border-box;
+}
+.BestSellerContainer{
+    height: 400px;
+    width: 350px;
+    /* border: 1px solid black; */
+    display: flex;
+    object-fit: cover;
+    box-shadow: 1.5px 1.5px 1.5px 3px lightgray;
+    flex-direction: column;
+    align-items: center;
+    font-family: poppins;
+    color: #005C78;
+    cursor: pointer;
+    /* border-radius: 4px; */
+
+}
+.BestSellerContainer p{
+    font-weight: 600;
+}
+.oldPrice{
+    color: red;
+    text-decoration: line-through;
+}
+.newPrice{
+    color: green;
+}
+
+.bestSellerProdductImage:hover{
+    scale: 1.05;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    gap: 50px;
+    /* justify-content: space-evenly; */
+}
+.bestSellerProdductImage{
+   width: 340px;
+   height: 280px;
+   /* border: 1px solid black; */
+   /* text-shadow: 2px 2px 2px lightgray; */
+}
+.BestSeller{
+    padding: 40px;
+    display: flex;
+    gap: 50px;
+    /* justify-content: space-evenly; */
+    /* align-items: center; */
+    flex-direction: column;
+    align-items: center;
+}
+.BestSeller h1{
+    color: #005C78;
+    font-size: 40px;
+    font-family: poppins;
+}
+.title hr{
+    /* width: 30rem; */
+    height: 7px;
+    background-color: #005C78;
+    border-radius: 10px;
+    border: none;
+   }
+   .exploreButton{
+    height: 70px;
+    width: 200px;
+    border-radius: 40px;
+    outline: none;
+    border: none;
+    background-color: #005C78;
+    font-family: poppins;
+    color: #DCF2F1;
+    font-size: 25px;
+    font-weight: 600;
+    cursor: pointer;
+   }
+   .exploreButton:hover{
+    scale: 1.05;
+    transition: 1s;
+   }

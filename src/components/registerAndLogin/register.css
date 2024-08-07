@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.Register {
+   
+    margin-top: 20vh;
+    width: 100vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  
+}
+.Register form{
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    /* border: 1px solid black; */
+    padding: 10px;
+    gap: 10px;
+    /* align-items: center; */
+    box-shadow: 1px 1px 2px 2px lightgray;
+    border-radius: 5px;
+}
+input{
+    height: 40px;
+    height: 50px;
+    width: 260px;
+    font-size: 20px;
+    padding-left: 20px;
+    background-color: #DCF2F1;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    color: #005C78;
+
+}
+textarea{
+    resize: none;
+    width: 100%;
+    height:150px;
+    font-size: 20px;
+    padding-left: 20px;
+    background-color: #DCF2F1;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    color: #005C78;
+}
+.Register-button{
+    height: 50px;
+    width: 150px;
+    background-color: #005C78;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: larger;
+    cursor: pointer;
+    align-self: center;
+}
+.input-name{
+    display: flex;
+    gap: 2%;
+}
+.input-password{
+    display: flex;
+    gap: 2%;
+}
+h1{
+    color: #005C78;
+}

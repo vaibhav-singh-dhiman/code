@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+ 
+  .WAW {
+    overflow-x: hidden;
+    min-height: 80vh;
+    width: 100vw;
+    background-color: #005C78;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .charm1 {
+    position: absolute;
+    left: 2%;
+    top: 6%;
+  }
+  
+  .charm2 {
+    position: absolute;
+    left: 6%;
+    bottom: 0%;
+  }
+  
+  .strip {
+   position: absolute;
+   height: 400px;
+   right: -250px;
+   top: -97px;
+  }
+  
+  .slider {
+    position: absolute;
+    width: 500px; /* Adjust the width as needed */
+    z-index: 1; /* Ensure it appears above other elements */
+    margin-top: 20px; /* Adjust margin as needed */
+    /* background-color: wheat; */
+  }
+  

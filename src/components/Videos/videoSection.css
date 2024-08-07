@@ -1,0 +1,32 @@
+*{
+    padding: 0;margin: 0;box-sizing: border-box;
+}
+.VideoSection{
+    margin-top: 25vh;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+}
+.first-image-card{
+    display: flex;
+    /* height: 20vh; */
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    padding-left: 100px;
+    padding-right: 100px;
+    cursor: pointer;
+}
+.first-image-card img{
+    height: 200px;
+    align-self: center;
+}
+.first-image-card p{
+    align-self: center;
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: poppins;
+    color: white;
+}

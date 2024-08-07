@@ -1,0 +1,38 @@
+*{
+    padding: 0;margin: 0;box-sizing: border-box;
+}
+.MainBlogs{
+    margin-top: 25vh;
+    width: 100vw;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.blogContainer{
+    height: 50vh;
+    width: 70vw;
+    border: 1px solid lightgray;
+    display: flex;
+    gap: 50px;
+}
+.blogContainer img{
+    /* flex: 1; */
+    width: 40%;
+    height: auto;
+}
+.content{
+    padding-top: 5vh;
+    color: #005C78;
+    display: flex;
+    flex-direction: column;
+    padding-right: 4vw;
+    gap: 4vh;
+    cursor: pointer;
+}
+.author{
+    align-self: flex-end;
+    
+}

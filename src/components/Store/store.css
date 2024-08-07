@@ -1,0 +1,108 @@
+*{
+    padding: 0;margin: 0;box-sizing: border-box;
+    font-family: poppins;
+}
+.Store{
+    margin-top: 20vh;
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    gap: 50px;
+}
+.Store h1{
+    align-self: center;
+    color: #005C78;
+    font-family: poppins;
+}
+.store-section{
+    display: flex;
+}
+.left-store-section{
+    flex: 1;
+    /* border: 1px solid black; */
+    padding-left: 2%;
+    color: #005C78;
+    font-size: larger;
+    
+
+}
+.store-menu-list{
+    color: #D80032;
+    cursor: pointer;
+}
+.right-store-section{
+    flex: 3;
+    /* border: 1px solid red; */
+    /* padding: 5%; */
+}
+.find-by-age{
+    display: flex;
+    align-items: center;
+    /* gap: 19px; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    align-items: center;
+    
+    color: #D80032;
+}
+.find-by-price{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #D80032;
+    cursor: pointer;
+    /* justify-content: center; */
+}
+.store-section img{
+    height: 20px;
+}
+.hide{
+    display: none;
+}
+.view{
+    display: block;
+}
+.find-by-age img{
+    cursor: pointer;
+}
+.find-by-price img{
+    cursor: pointer;
+}
+.store-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3%;
+}
+.store-card-container{
+    height: 350px;
+    width: 300px;
+    box-shadow: 2px 2px  4px 4px lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    gap: 10px;
+    font-family: poppins;
+    cursor: pointer;
+}
+.store-card-container h2{
+    color: #005C78;
+}
+.store-card-container img{
+    flex: 0.6;
+}
+.store-menu-list{
+    display: flex;
+    flex-direction: column;
+    gap: 5px
+}
+.find-by-age ul{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
